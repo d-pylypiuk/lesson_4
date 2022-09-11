@@ -1,0 +1,221 @@
+/* --------- ОБНУЛЕННЯ СТИЛІВ ТЕГІВ ------------ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+body {
+	line-height: 1;
+}
+
+/* ---------------------------------
+--------FONTS-------------------
+------------------------------ */
+@font-face {
+    font-family: 'Larsseit';
+    src: url('../fonts/') format('woff2'),
+        url('../fonts/Larsseit-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('../fonts/Larsseit-Medium.woff2') format('woff2'),
+        url('../fonts/Larsseit-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('../fonts/Larsseit-Bold.woff2') format('woff2'),
+        url('../fonts/Larsseit-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+/* ----------------------------
+------------------------------- */
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/') format('woff2'),
+        url('../fonts/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* -----------------------------------
+----------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
+body{
+	background-color:#444;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 20px;
+	padding-top: 20px;
+	font-size: 20px;
+}
+.links{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.links a{
+	color: lightskyblue;
+	padding-right: 10px;
+	font-size: 16px;
+}
+.links a span{
+	color: chartreuse;
+}
+.quote{
+	margin-top: 20px;
+	font-family: 'Tinos', serif;
+	font-size: 30px;
+	background-color: gray;
+}
+.quote a{
+	font-size: 16px;
+	color: lightskyblue;
+}
+h1{
+	margin-top: 20px;
+	font-size: 32px;
+}
+h2{
+	padding-top: 40px;
+	font-size: 30px;
+	font-weight: 500;
+}
+p, ul{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+li{
+	padding-bottom: 10px;
+	color: gold;
+}
+#sector-two, #sector-three{
+	margin-top: 50px;
+}
+h2 span{
+	color: chartreuse;
+}
+#sector-three{
+	background-color: white;
+	color: #444;
+}
+#sector-three span{
+	color: coral;
+}
+.bottom-links{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.bottom-links a{
+	color: cornflowerblue;
+}
+
+/* ------font Larsseit------- */
+.l-regular{
+	font-size: 24px;
+	font-weight: normal;
+	font-family: Larsseit;
+}
+.l-medium{
+	font-weight: medium;
+	font-size: 24px;
+	font-family: Larsseit;
+}
+.l-bold{
+	font-weight: bold;
+	font-size: 24px;
+	font-family: Larsseit;
+}
+.larsseit span{
+	color: coral;
+}
+/* ------font Lato------- */
+.lato-regular{
+	font-size: 24px;
+	font-weight: normal;
+	font-family: Lato;
+}
+.lato-bold{
+	font-weight: 500;
+	font-size: 24px;
+	font-family: Lato;
+}
+.lato-black{
+	font-weight: 900;
+	font-size: 24px;
+	font-family: Lato;
+}
+.lato span{
+	color: chartreuse;
+}
+
+
